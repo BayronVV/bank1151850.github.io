@@ -1,0 +1,144 @@
+
+
+body {
+    background-color: gray, white,gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido en la parte superior */
+    align-items: center;
+    height: 100vh; 
+}
+  body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido en la parte superior */
+    align-items: center;
+    min-height: 100vh; /* Asegura que el contenido esté centrado verticalmente */
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-style: initial ;
+    
+}
+
+.content-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: flex-start; /* Alinea el contenido en la parte superior */
+}
+.image-container1 {
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+.image-container {
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+.text-container {
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px; /* Ancho total del contenedor de botones */
+}
+
+.column {
+    flex: 1; /* Divide el espacio en dos columnas iguales */
+    margin: 2px;
+}
+
+  
+ .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ .abrirPaginaButton{
+    
+    width: 10%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #1875d8;
+    color: white;
+    text-decoration: none;
+    border: cornsilk;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button {
+    display: block;
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: #1875d8;
+    color: white;
+    text-decoration: none;
+    border: cornsilk;
+    border-radius: 20px;
+    cursor: pointer;
+}
+  
+ .numer{
+    font-size: 20px; /* Tamaño de fuente más grande */
+    padding: 10px; /* Espaciado interior para hacerla más grande */
+}
+.num{
+    width: 200px;
+    font-size: 20px; /* Tamaño de fuente más grande */
+    padding: 10px; /* Espaciado interior para hacerla más grande */
+    text-align: center;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+  }
+  .boton{
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+  }
+  button:hover {
+    background-color: #005b8c;
+  }
+  #t1{
+
+    font-size: 30px;
+    font-style: initial ;
+  }
+  
+
+  
+  @media (min-width: 1900px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centrar el contenido horizontalmente */
+      justify-content: center; /* Centrar el contenido verticalmente */
+      height: 100vh; /* Asegura que el cuerpo abarque toda la altura de la pantalla */
+    }
+  }
+  @media (min-height:950px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centrar el contenido horizontalmente */
+      justify-content: center; /* Centrar el contenido verticalmente */
+      height: 100vh; /* Asegura que el cuerpo abarque toda la altura de la pantalla */
+    }
+  }

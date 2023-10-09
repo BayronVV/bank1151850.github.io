@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script src="/js/main.js"></script> 
+    <title>Introduzca su contraseña</title>
+</head>
+<body>
+    <div class="image-container">
+        <img src= "/imagenes/inicio.png" alt="Descripción de la imagen">
+    </div>
+    <p>digite su clave actual</p>
+
+    <input class="num"  maxlength="4" type="number" id="claveActual" name="numero">
+
+    <p>digite su clave NUEVA</p>
+
+    <input class="num" maxlength="4" type="number" id="claveNueva" name="numero"  >
+
+    <div class="teclado">
+        <button class="boton"id="btn1" onclick='agregarNumero1(1)'>1</button>
+        <button class="boton"id="btn2" onclick='agregarNumero1(2)'>2</button>
+        <button class="boton"id="btn3" onclick='agregarNumero1(3)'>3</button>
+        <button class="boton"id="btn4" onclick='agregarNumero1(4)'>4</button>
+        <button class="boton"id="btn5" onclick='agregarNumero1(5)'>5</button>
+        <button class="boton" id="btn6"onclick='agregarNumero1(6)'>6</button>
+        <button class="boton" id="btn7"onclick='agregarNumero1(7)'>7</button>
+        <button class="boton"id="btn8"onclick='agregarNumero1(8)'>8</button>
+        <button class="boton"id="btn9"onclick='agregarNumero1(9)'>9</button>
+        <button class="boton"id="btn0"onclick='agregarNumero1(0)'>0</button>
+        <button class="boton"id="btn*"onclick='agregarNumero1("*")'>*</button>
+        <button class="boton"id="btn#"onclick='agregarNumero1("#")'>#</button>
+    </div>
+
+    <div class="button-container">
+        <div class="column">
+            <a href="Index.html" class="button">Cancelar</a>
+        </div>
+        <div class="column"> </div>
+        <div class="column">
+            <a href="resultado_cambio.html" class="button">Continuar</a>
+        </div>
+    
+</body>
+</html>
